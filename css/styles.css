@@ -1,4 +1,7 @@
 /* comment */
+ul li {
+  display: inline;
+}
 
 h1 { color:black;
 font-size: 30px;
