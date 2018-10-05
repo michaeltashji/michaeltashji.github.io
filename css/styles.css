@@ -8,8 +8,8 @@ html {box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif;
-  font-size: 16px;
+  font-family: georgia;
+  font-size: 22px;
   line-height: 1.5;
 }
 
@@ -25,7 +25,7 @@ header {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.2;
-  padding: 20px 20px 10px 20px;
+  padding: 0px 20px 20px 40px;
   text-align: center;
 }
 
