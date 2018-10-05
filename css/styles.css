@@ -136,13 +136,13 @@ a:hover {
 }
 
 blockquote {
-  border-top: 1px solid #1b30cd;
-  border-bottom: 1px solid #1b30cd;
+  border-top: 1px dashed #1b30cd;
+  border-bottom: 1px dashed #1b30cd;
   color: #1b30cd;
   font-family: georgia;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 18px;
-  margin: 100px;
+  margin: 40px;
   padding: 100px;
   text-align: center;
 }
