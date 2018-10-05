@@ -116,9 +116,11 @@ img {max-width: 100%;
 
 figcaption {
 text-align: center;
-font-family: sans-serif;
+font-family: georgia;
 line-height: 1.1;
-padding: 10px 10px 10px 30px;
+font-weight: 700;
+color: #1b30cd;
+padding: 10px 10px 10px 40px;
 }
 
 .img-wrapper figure {width: 200px; }
