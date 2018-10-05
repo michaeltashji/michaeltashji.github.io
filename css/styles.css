@@ -15,14 +15,12 @@ body {
   font-family: georgia;
   font-size: 19px;
   line-height: 1.5;
-  text-align: center;
-  max-width: 800px;
+  text-align: left;
 }
 
 header {
-  background-color: #1b30cd;
   background-size: cover;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
 }
 
@@ -64,7 +62,7 @@ nav {
   text-align: center;
   padding: 10px 10px 10px 10px;
   width:100%;
-  background: rgba (0, 0, 0, 1);
+  background: #1b30cd;
 }
 
   li {
@@ -73,7 +71,7 @@ nav {
 }
 
 nav ul li a {
-color: #1b30cd;
+color: #ffffff;
 font-family: sans-serif;
 font-size: 14px;
 font-weight: 400;
@@ -112,21 +110,24 @@ figure {
   margin: 0px;
 }
 
-img {max-width: 100%;
+img {
+  max-width: 100%;
   height: auto;
 }
 
 figcaption {
-text-align: center;
-font-family: georgia;
-line-height: 1.1;
-font-weight: 400;
-font-size: 10;
-color: #5b5b5b;
-padding: 10px 10px 10px 40px;
+  text-align: center;
+  font-family: georgia;
+  line-height: 1.1;
+  font-weight: 400;
+  font-size: 10;
+  color: #5b5b5b;
+  padding: 10px 10px 10px 40px;
 }
 
-.img-wrapper figure {width: 200px; }
+.img-wrapper figure {
+  width: 200px;
+}
 
 a {
   color: #1b30cd;
@@ -144,9 +145,9 @@ blockquote {
   color: #1b30cd;
   font-family: georgia;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 36px;
   margin: 10px;
-  padding: 100px;
+  padding: 50px;
   text-align: center;
 }
 
@@ -176,7 +177,9 @@ footer ul li a:hover {
   text-decoration: underline;
 }
 
-@@media (max-width: 700px) {
+/* Mediaqueries I will explain */
+
+@media (max-width: 700px) {
 
 li {
   display: block;
