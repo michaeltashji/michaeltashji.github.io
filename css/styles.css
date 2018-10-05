@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  background-color: #ff6600;
+  background-color: #1b30cd;
   background-size: cover;
   color: #ffffff;
   text-align: center;
@@ -30,7 +30,7 @@ header {
   font-size: 60px;
   font-weight: 700;
   line-height: 1.2;
-  padding: 40px 0px 0px 40px;
+  padding: 10px 0px 0px 10px;
   text-align: center;
 }
 
