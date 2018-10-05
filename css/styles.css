@@ -7,7 +7,11 @@ html {box-sizing: border-box;
   box-sizing: inherit;
 }
 
+/* Global styles that are for everything in general */
+
 body {
+  color: black;
+  background-color: white;
   font-family: georgia;
   font-size: 19px;
   line-height: 1.5;
@@ -23,7 +27,6 @@ header {
 }
 
 .mybigheadline {
-  font-family: georgia;
   font-size: 60px;
   font-weight: 700;
   line-height: 1.2;
