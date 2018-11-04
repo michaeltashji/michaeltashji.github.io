@@ -25,7 +25,7 @@ header {
 }
 
 .mybigheadline {
-  font-family: Georgia;
+  font-family: Georgia, serif;
   font-size: 60px;
   font-weight: 400;
   line-height: 1.2;
