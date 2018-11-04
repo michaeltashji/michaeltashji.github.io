@@ -120,7 +120,7 @@ figcaption {
   font-weight: 400;
   font-size: 13px;
   color: #5b5b5b;
-  padding: 15px;
+  padding: 10px;
   margin: 20px;
 }
 
@@ -146,7 +146,12 @@ blockquote {
   font-family: georgia;
   font-weight: 700;
   font-size: 36px;
-  padding: 50px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  margin-right: 0px;
   text-align: center;
 }
 
