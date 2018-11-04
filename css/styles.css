@@ -26,7 +26,7 @@ header {
 
 .mybigheadline {
   font-size: 60px;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.2;
   padding: 90px 0px 0px 0px;
 }
@@ -55,7 +55,6 @@ text-decoration-style: solid;
 }
 
 nav {
-  text-align: center;
   padding: 18px;
   width:100%;
   background: #1b30cd;
@@ -63,16 +62,17 @@ nav {
 
   li {
   display: inline;
-  padding: 20px;
+  padding: 25px;
 }
 
 nav ul li a {
-color: #ffffff;
-font-family: sans-serif;
-font-size: 14px;
-font-weight: 700;
-text-decoration: none;
-text-transform: uppercase;
+  text-align: center;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 nav ul li a:hover {text-decoration: underline;}
 
@@ -82,7 +82,7 @@ article {
   margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6{
+h2, h3, h4, h5, h6{
   font-family: sans-serif;
   font-weight: 400;
   color: #000000;
@@ -109,6 +109,8 @@ figure {
 img {
   max-width: 100%;
   height: auto;
+  margin-top: 15px;
+
 }
 
 figcaption {
@@ -118,7 +120,7 @@ figcaption {
   font-weight: 400;
   font-size: 13px;
   color: #5b5b5b;
-  padding: 10px;
+  padding: 15px;
   margin: 20px;
 }
 
