@@ -61,7 +61,7 @@ nav {
   background: #1b30cd;
 }
 
-  li {
+li {
   display: inline;
   padding: 25px;
 }
@@ -75,7 +75,10 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
 }
-nav ul li a:hover {text-decoration: underline;}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
 
 article {
   max-width: 800px;
@@ -83,7 +86,7 @@ article {
   margin: auto;
 }
 
-h2, h3, h4, h5, h6{
+h2, h3, h4, h5, h6 {
   font-family: sans-serif;
   font-weight: 400;
   color: #000000;
@@ -101,7 +104,6 @@ img {
   max-width: 100%;
   height: auto;
   margin-top: 15px;
-
 }
 
 figcaption {
