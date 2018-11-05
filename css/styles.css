@@ -200,11 +200,6 @@ p {
 }
 
 
-
-blockquote {
-  font-size: 18px;
-}
-
 .img-wrapper {
   display: flex;
   flex-direction: column;
@@ -219,19 +214,3 @@ footer ul li {
 footer ul li a {
   font-size: 12px;
 }
-/*
-b { color:rebeccapurple;
-  text-align: "center";
-  font-size: 14px;
-  font-family: arial, sans-serif;
-}
-
-p { color:dimgray;
-  text-align: "center";
-  font-size: 16px;
-  font-family: georgia, serif;
-}
-*/
-/*img { max-width: 600px;
-max-height: auto;
-}*/
